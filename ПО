@@ -1,0 +1,46 @@
+#!/bin/sh
+echo "Начало настройки системы"
+date
+sudo apt install cheese -y
+sudo apt install mc -y
+sudo apt install cmatrix -y
+sudo apt install keepassx -y
+sudo apt install netdiscover -y
+sudo apt install git -y
+sudo apt install nmap -y
+sudo apt install aview imagemagick -y
+sudo apt install audacity -y
+sudo apt install homebank -y
+sudo apt-get install remmina remmina-plugin-rdp -y
+sudo apt install pcscd pcsc-tools -y
+sudo apt install python-pyscard -y
+sudo apt-get install default-jre -y
+sudo apt-get install default-jdk -y
+sudo ufw enable -y
+sudo ufw logging on
+sudo ufw status verbose
+sudo apt install htop -y
+sudo apt install hydra -y
+sudo apt install git -y
+sudo apt install sqlmap -y
+sudo apt install macchanger -y
+sudo apt install secure-delete -y
+sudo apt-get install aircrack-ng -y
+sudo apt install screenfetch -y
+sudo apt-get install guvcview -y
+sudo apt install speedcrunch -y
+sudo apt install pwgen -y
+sudo apt install filezilla -y
+sudo apt-get install dia -y
+sudo apt-get install osmo -y
+sudo apt install gnome-paint -y
+sudo apt install vlc -y
+sudo apt install gparted -y
+sudo apt install acpitool -y
+
+date
+echo "Максим Павлович система готова "
+echo "Приятного использования"
+
+
+
