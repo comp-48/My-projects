@@ -1,0 +1,12 @@
+# 1. Проверить доступные обновления
+sudo dnf check-update
+
+# 2. Сделать полное обновление (аналог dist-upgrade)
+sudo dnf upgrade -y
+
+# 3. Очистить кэш и удалить ненужные пакеты
+sudo dnf autoremove
+sudo dnf clean all
+
+# 4. Проверить целостность системы
+sudo dnf check
